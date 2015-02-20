@@ -53,6 +53,12 @@ or
 
 Send me an email at mcostales@jumptoweb.com and I will answer you as soon as I can.
 
+== Screenshots ==
+
+1. Copy the Latitude and Longitude from the url. The first one is the Latitude, and the second one the Longitude.
+2. Create the GMap using the shortcode in this way. The required parameters are the Latitude and Longitude. Width and height are optional, and the same with the mapwidth.
+3. Publish the page/post and you will see the map!
+
 == Changelog ==
 
 = 2.0 =
