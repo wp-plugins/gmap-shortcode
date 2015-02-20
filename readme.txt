@@ -18,16 +18,16 @@ WORKS WITH THE NEW VERSION OF GOOGLE MAPS
 You can add a map using a shortcode.
 
 You only need to:
-1. Go to https://www.google.com/maps
-2. Search the address you want to embed in your website. Drag and drop the map to adjust it to the section you want.
-3. Copy the latitude and longitude.
-4. Go to the page you want to add the map and paste this shortcode: [gmap_mc lat="LATITUDE" long="LONGITUDE"]
+1.Go to https://www.google.com/maps
+2.Search the address you want to embed in your website. Drag and drop the map to adjust it to the section you want.
+3.Copy the latitude and longitude.
+4.Go to the page you want to add the map and paste this shortcode: '[gmap_mc lat="LATITUDE" long="LONGITUDE"]'
 
-* To keep in mind:
-- The default dimensions are 350x250
-- The defaults latitude and longitude point to Cuba
-- You can set your own dimensions using these parameters [gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250"]
-- You can set the zoom of your map using the parameter mapwidth, like this [gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250" mapwidth="3000km"]. The zoom is assumed to be in miles unless you specify km. The default zoom is 1500km
+*To keep in mind:*
+- The default dimensions are **350x250**
+- The defaults latitude and longitude point to **Cuba**
+- You can set your own dimensions using these parameters '[gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250"]'
+- You can set the zoom of your map using the parameter **mapwidth**, like this '[gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250" mapwidth="3000km"]'. The zoom is assumed to be in miles unless you specify km. The default zoom is **1500km**
 
 == Installation ==
 
