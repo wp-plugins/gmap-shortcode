@@ -5,7 +5,7 @@ Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: google map, 
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,17 +13,21 @@ This plugin make you happy when you need to add Google Maps to your pages/posts.
 
 == Description ==
 
+WORKS WITH THE NEW VERSION OF GOOGLE MAPS
+
 You can add a map using a shortcode.
 
 You only need to:
 1. Go to https://www.google.com/maps
 2. Search the address you want to embed in your website. Drag and drop the map to adjust it to the section you want.
-3. Copy the url.
-4. Go to the page you want to add the map and paste this shortcode: [gmap_mc src="google_map_url"]
+3. Copy the latitude and longitude.
+4. Go to the page you want to add the map and paste this shortcode: [gmap_mc lat="LATITUDE" long="LONGITUDE"]
 
 * To keep in mind:
 - The default dimensions are 350x250
-- You can set your own dimensions using these parameters [gmap_mc width="600" height="250" src="google_map_url"]
+- The defaults latitude and longitude point to Cuba
+- You can set your own dimensions using these parameters [gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250"]
+- You can set the zoom of your map using the parameter mapwidth, like this [gmap_mc lat="LATITUDE" long="LONGITUDE" width="600" height="250" mapwidth="3000km"]. The zoom is assumed to be in miles unless you specify km. The default zoom is 1500km
 
 == Installation ==
 
@@ -41,6 +45,9 @@ or
 Send me an email at mcostales@jumptoweb.com and I will answer you as soon as I can.
 
 == Changelog ==
+
+= 2.0 =
+Add compatibility with new version of Google Map.
 
 = 1.0 =
 Just launch the plugin!
