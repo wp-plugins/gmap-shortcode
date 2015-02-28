@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: GMap Shortcode
+ * Plugin URI: http://www.jumptoweb.com
  * Description: This plugin make you happy when you need to add Google Maps to your pages/posts. You only need to know the latitude and the longitude, and use the shortcode [gmap_mc lat="LATITUDE" long="LONGITUDE"]. 
  * Version: 2.0
  * Author: Manuel Costales
